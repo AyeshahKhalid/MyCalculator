@@ -1,0 +1,32 @@
+table{
+    margin: 100px auto;
+background-color: #3c6c73;
+box-shadow: 5px 5px 15px;
+}
+button
+{
+    width: 100%;
+    border-radius: 10px;
+background-color: gainsboro;
+}
+#result
+{
+    background-color: lavender;
+}
+td
+{
+    border-radius: 10px;
+}
+body
+{
+    animation-name: example;
+    animation-duration: 10s;
+    background-color: rgb(219, 159, 238);
+}
+@keyframes example
+{
+    0%{ background-color: rgb(219, 159, 238);}
+    25%{ background-color: rgb(160, 159, 238);}
+    50%{ background-color: rgb(129, 211, 243);}
+    100%{ background-color: rgb(129, 243, 196);}
+}
